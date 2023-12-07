@@ -1,4 +1,6 @@
 @import "./global/gobal.css";
 @import "./global/header.css";
 
+@import "./home/home.css";
+
 @import "./utilities/componentes.css";
