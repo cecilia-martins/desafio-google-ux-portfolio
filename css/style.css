@@ -2,5 +2,6 @@
 @import "./global/header.css";
 
 @import "./home/home.css";
+@import "./home/formacao.css";
 
 @import "./utilities/componentes.css";
