@@ -15,26 +15,6 @@
   grid-column: 1;
 }
 
-.decoracao-titulo {
-  font-size: 4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.96px;
-
-  /* peguei do figma :) */
-  background: var(
-    --linear-ternary-25,
-    linear-gradient(
-      180deg,
-      rgba(167, 134, 223, 0.25) 0%,
-      rgba(217, 212, 231, 0.25) 91.77%
-    )
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .about-container h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -44,7 +24,6 @@
 .about-container p {
   font-size: 1.25rem;
   padding-bottom: 20px;
-
 }
 
 .sub-about {
@@ -55,7 +34,7 @@
   font-size: 1rem;
   color: rgb(188, 188, 188);
 }
-                  
+
 .about-options {
   display: flex;
   gap: 40px;
@@ -69,16 +48,17 @@
 
 .btn-download {
   padding: 12px 24px;
-  background: #A786DF;
+  background: #a786df;
   border-radius: 5px;
   margin-left: auto;
+  white-space: nowrap;
 
   font-weight: bold;
   font-size: 1.5;
   text-transform: uppercase;
 }
 .centro {
-margin: auto 0 auto 0;
+  margin: auto 0 auto 0;
 }
 
 @media (max-width: 1000px) {
@@ -91,9 +71,13 @@ margin: auto 0 auto 0;
   .about-container h1 {
     padding-bottom: 10px;
   }
-  
+
   .about-container p {
     font-size: 1.2rem;
     padding-bottom: 20px;
+  }
+
+  .about-options ul {
+    gap: 20px;
   }
 }

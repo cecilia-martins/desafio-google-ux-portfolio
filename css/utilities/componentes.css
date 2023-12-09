@@ -1,0 +1,26 @@
+.decoracao-titulo {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.96px;
+
+  /* peguei do figma :) */
+  background: var(
+    --linear-ternary-25,
+    linear-gradient(
+      180deg,
+      rgba(167, 134, 223, 0.25) 0%,
+      rgba(217, 212, 231, 0.25) 91.77%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1000px) {
+
+  .decoracao-titulo {
+    font-size: 3rem;
+  }
+}
