@@ -1,0 +1,7 @@
+.tecnologias {
+  background-color: var(--cor-background-dark);
+}
+
+.tecnologias-lista {
+  display: flex;
+}

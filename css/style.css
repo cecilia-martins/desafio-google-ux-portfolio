@@ -3,6 +3,7 @@
 
 @import "./home/home.css";
 @import "./home/formacao.css";
+@import "./home/tecnologias.css";
 
 @import "./utilities/componentes.css";
 @import "./utilities/cores.css";
