@@ -6,3 +6,15 @@
 
 }
 
+.cor-0 {
+  color: var(--cor-headline);
+}
+.cor-1 {
+  color: var(--cor-ternary);
+}
+.cor-2 {
+  color: var(--cor-secondary);
+}
+.cor-3 {
+  color: var(--cor-background-dark);
+}
