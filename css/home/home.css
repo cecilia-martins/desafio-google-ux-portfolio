@@ -23,6 +23,7 @@
 
 .about-container p:nth-child(3){
   font-size: 1.125rem;
+  line-height: 1.33;
   padding-bottom: 40px;
 }
 
