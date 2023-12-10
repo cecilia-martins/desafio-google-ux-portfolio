@@ -4,7 +4,7 @@
 
 .formacao-container {
   max-width: 1200px;
-  padding: 60px;
+  padding: 40px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,8 +20,17 @@
   font-size: 1.125rem;
   line-height: 1.33;
   margin-bottom: 40px;
-  max-width: 40ch; /* maximo de 40 caracteres */
+  /* max-width: 40ch; maximo de 40 caracteres */
   color: var(--cor-background-dark);
+}
+
+.formacao-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.formacao-container img {
+  margin-top: auto; /* Isso coloca a imagem na parte inferior */
 }
 
 .faculdade-lista {
