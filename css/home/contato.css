@@ -4,10 +4,74 @@
 
 .contato-container {
   max-width: 1200px;
-  padding: 20px 20px;
+  padding: 40px 20px;
   margin: 0 auto;
+
+  display: grid;
+  align-items: center; /* Adicionado para centralizar verticalmente */
+  gap: 10px 60px;
+}
+
+.contato-container img {
+  margin-top: auto;
 }
 
 .decoracao-titulo {
-  padding: 20px;
+  padding: 10px;
+}
+
+.form-subtitulo {
+  font-size: 3rem;
+  white-space: nowrap;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.form label {
+  display: block;
+  font: 600 1rem/1.125 "Poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: var(--cor-secondary);
+  border: 1px solid var(--cor-ternary);
+  padding: 10px;
+  border-radius: 4px;
+  /* vai espandir 100% */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--cor-ternary);
+  box-shadow: 0 0 0 2px var(--cor-ternary);
+}
+
+.btn-contato {
+  color: var(--cor-headline);
+  padding: 12px 24px;
+  background: var(--cor-ternary);
+  border-radius: 5px;
+  white-space: nowrap;
+
+  font-weight: bold;
+  font-size: 1.5;
+  text-transform: uppercase;
+/* centralizando a budega do botão */
+  margin: 0 auto;
+  display: block;
 }
