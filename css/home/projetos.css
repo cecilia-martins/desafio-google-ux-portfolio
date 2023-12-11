@@ -1,0 +1,37 @@
+.projetos-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.decoracao-titulo {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.projeto-card {
+  padding: 20px;
+  flex: 1 0 calc(25% - 20px); /* definindo o espaço a ser ocupado */
+}
+
+.mais-projetos {
+  color: var(--cor-ternary);
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 20px;
+
+  flex: 1 100%;
+  text-align: center;
+}
+
+/* .projetos-container a {
+} */

@@ -4,12 +4,12 @@
 
 .tecnologias-container {
   max-width: 1200px;
-  padding: 20px 20px;
+  padding: 40px 20px;
   margin: 0 auto;
 }
 
 .decoracao-titulo {
-  padding: 20px;
+  /* padding: 40px; */
 }
 
 .tecnologias-lista {
@@ -26,5 +26,5 @@
   font-weight: 500;
   letter-spacing: 1.5%;
   margin: 10px;
-
+  text-align: center;
 }
