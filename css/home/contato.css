@@ -75,3 +75,15 @@
   margin: 0 auto;
   display: block;
 }
+
+@media (max-width: 775px) {
+  .contato-container img {
+    display: none;
+  }
+
+  .form {
+    display: flex;
+    grid-column: span 2;
+    margin: 0 auto;
+  }
+}

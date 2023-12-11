@@ -33,5 +33,9 @@
   text-align: center;
 }
 
-/* .projetos-container a {
-} */
+@media (max-width: 775px) {
+  .mais-projetos {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
