@@ -16,6 +16,10 @@
   padding-bottom: 20px;
 }
 
+.header-container #menu-mobile {
+  display: none;
+}
+
 .header-menu a {
   color: #fffffe;
   font-size: 1.125rem;
@@ -50,8 +54,36 @@
     gap: 10px;
     padding: 10px;
   }
-  .header-container img {
+
+  #menu-mobile {
+    display: block;
+  } 
+  
+  .header-container #menu-mobile {
+    display: block;
+  }
+  .header-menu {
     display: none;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* #menu-mobile {
+    background-color: #0E172C;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    display: block;
+    height: calc(100vh - 70px);
+    z-index: 1000;
+  } */
+
+  #nav.active #menu-mobile {
+    display: flex;
   }
 
 }
