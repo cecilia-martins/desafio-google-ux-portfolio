@@ -2,6 +2,29 @@
   background-color: var(--cor-background-dark);
 }
 
+.tecnologias-container {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+.decoracao-titulo {
+  padding: 20px;
+}
+
 .tecnologias-lista {
   display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.tecnologias-lista img {
+  min-width: 60px;
+  margin-bottom: 10px;
+}
+
+.tecnologias-lista li {
+  font-weight: 500;
+  letter-spacing: 1.5%;
+  margin: 10px;
+
 }
