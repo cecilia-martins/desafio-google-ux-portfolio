@@ -1,0 +1,13 @@
+.contato {
+  background-color: var(--cor-background-dark);
+}
+
+.contato-container {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+.decoracao-titulo {
+  padding: 20px;
+}

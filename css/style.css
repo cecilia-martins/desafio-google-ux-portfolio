@@ -1,10 +1,12 @@
 @import "./global/gobal.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 @import "./home/home.css";
 @import "./home/formacao.css";
 @import "./home/tecnologias.css";
 @import "./home/projetos.css";
+@import "./home/contato.css";
 
 @import "./utilities/componentes.css";
 @import "./utilities/cores.css";
