@@ -8,17 +8,13 @@
   margin: 0 auto;
 }
 
-.decoracao-titulo {
-  /* padding: 40px; */
-}
-
 .tecnologias-lista {
   display: flex;
   justify-content: space-around;
   padding: 20px 0;
 }
 .tecnologias-lista img {
-  min-width: 60px;
+  max-width: 60px;
   margin-bottom: 10px;
 }
 
@@ -27,4 +23,34 @@
   letter-spacing: 1.5%;
   margin: 10px;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .tecnologias-container {
+    padding: 20px 20px;
+  }
+
+  .tecnologias-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .tecnologias-lista img {
+    max-width: 40px;
+  }
+}
+
+@media (max-width: 580px) {
+  .tecnologias-lista img {
+    display: none;
+  }
+
+  .tecnologias-lista li {
+    color: var(--cor-ternary);
+    border: solid 1.5px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin: 0;
+  }
 }
