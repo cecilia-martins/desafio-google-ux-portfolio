@@ -6,7 +6,6 @@ Este projeto foi desenvolvido como parte do desafio do curso **Google UX Design 
 
 - HTML
 - CSS
-- JavaScript
 - Figma
 
 ## Captura de Tela do Projeto
