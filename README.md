@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como parte do desafio do curso **Google UX Design 
 
 ## Captura de Tela do Projeto
 
-<img src="./img/InShot_20250212_180345122.gif"/>
+<img src="./img/InShot_20250212_185248911.gif"/>
 
 ## Acesse o Protótipo no Figma
 
